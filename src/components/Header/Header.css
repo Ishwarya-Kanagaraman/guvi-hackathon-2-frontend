@@ -1,0 +1,50 @@
+.header{
+    background:rgb(51, 53, 69);
+    /* width: 100%; */
+    height: 75px;
+    padding:0px;
+}
+#logo{
+    width: 92px;
+}
+#search{
+    border-radius: 7px;
+    padding: 5px;
+    width: 400px;
+    margin:19px;
+   
+}
+@media screen and (max-width:500px){
+    #search{
+        width:200px;
+        margin:5px;
+    }
+    .select,.right,.button{
+        display:none;
+    }
+}
+.select{
+    border:none;
+    border-radius:8px;
+padding:5px;
+background-color: inherit;
+color:lightgrey;
+}
+.select:hover{
+    color:white;
+}
+.right{
+    align-items: center;
+   
+}
+.button{
+   
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.right > i{
+    color:lightgrey;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+

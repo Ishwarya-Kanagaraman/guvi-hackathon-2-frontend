@@ -1,0 +1,50 @@
+.card{
+   width:300px;
+    /* box-shadow: 2px 2px 8px #333; */
+    margin:10px;
+    border-radius: 12px;
+    background-color: inherit;
+}
+img {
+    width:300px;
+    border-radius: 12px;
+    /* height: auto; */
+}
+.cardContainer{
+    display:flex;
+    flex-wrap: wrap;
+}
+.main{
+    
+    margin:100px auto;
+}
+.premiereDiv{
+    background:#2b3148;
+}
+.mname{
+    color:white;
+    font-weight: 700;
+}
+.mlang{
+  color:white;
+  font-weight: 400;
+}
+.prLogo{
+    width:50px;
+}
+.prName{
+    margin:0;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+.prHead{
+    display:flex;
+}
+.prsubname{
+    text-align: left;
+    color:lightgrey;
+    font-size: small;
+}
